@@ -1,0 +1,47 @@
+#page-content > a{
+	display: inline;
+	height: 30px;
+	width: auto;
+	border: 1px solid #eaeaea;
+	text-decoration: none;
+	color: #2196f3;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #fff;
+}
+.cur{
+	border: none;
+}
+.cur > a{
+	color: #000;
+	text-decoration: none
+}
+.pagingUl > li{
+	display: inline-block;
+	list-style: none;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.pagingUl > .btn >a{
+	text-decoration: none;
+	color: #fff
+}
+.btn{
+	cursor: pointer;
+	color:#fff;
+	background-color: rgb(32, 160, 255);
+	border: none;
+	border: 1px solid #eaeaea;
+	width: 80px;
+	height: 35px;
+	display: inline-block;
+	list-style: none;
+	line-height: 35px;
+	text-align: center;
+	margin-right: 15px;
+}
+
+

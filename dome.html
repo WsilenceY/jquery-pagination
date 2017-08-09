@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pagination demo</title>
+	<link rel="stylesheet" type="text/css" href="./pagination.css">
+</head>
+<body>
+
+<div id="page"></div>
+
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./pagination.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(function(){
+			$("#page").Pagination({
+		          all: 14,//分页总数
+		          activeClass: 'activPage', //active 类样式定义
+		          callback : function(p){
+		          		console.log('当前第'+p+'页');
+		          }
+      		});
+		})
+	})
+</script>
+</body>
+</html>
